@@ -8,7 +8,7 @@ A full-stack **MERN (MongoDB, Express.js, React, Node.js)** web application for 
 | Auth & Access | Dashboard & Home | Income & Expense |
 |---------------|------------------|------------------|
 | ![Create Account](./screenshots/create_account.png) | ![Home](./screenshots/home.png) | ![Add Income](./screenshots/add_income.png) |
-| ![Login Page](./screenshots/login.png) | ![Home 2](./screenshots/home2.png) | ![Show Income](./screenshots/show_income.png) |
+| ![Login Page](./screenshots/Login.png) | ![Home 2](./screenshots/home2.png) | ![Show Income](./screenshots/show_income.png) |
 | ![Reset Password](./screenshots/reset_pass.png) | ![Dashboard 1](./screenshots/dashboard1.png) | ![Add Expense](./screenshots/add_expense.png) |
 |  | ![Dashboard 2](./screenshots/dashboard2.png) | ![Show Expense](./screenshots/show_expense.png) |
 
