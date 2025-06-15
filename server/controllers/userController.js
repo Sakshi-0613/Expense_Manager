@@ -2,7 +2,7 @@ import userModel from "../models/userModel.js";
 
 export const getUserData = async (req, res) => {
     try {
-        const { userId } = req.body;  // ❌ Issue: userId is not extracted from token
+        const { userId } = req.body;  
 
         if (!userId) {
             return res.json({ success: false, message: "User ID is missing in request" });
@@ -17,7 +17,7 @@ export const getUserData = async (req, res) => {
         res.json({
             success: true,
             userData: {
-                userId: user._id,   // ✅ Add this line
+                userId: user._id,   
                 name: user.name,
                 isAccountVerified: user.isAccountVerified  
             }
