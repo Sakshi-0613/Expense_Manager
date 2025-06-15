@@ -49,7 +49,7 @@ export default router;
 //   }
 // });
 
-// // ✅ Route to Fetch Income Data (Make sure this exists!)
+
 // router.get("/", async (req, res) => {
 //     try {
 //       const { userId } = req.query; // Fetch userId from query params
